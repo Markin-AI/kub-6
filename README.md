@@ -16,9 +16,9 @@
 4. Продемонстрировать, что multitool может читать файл, который периодоически обновляется.
 5. Предоставить манифесты Deployment в решении, а также скриншоты или вывод команды из п. 4.
 
-[deploy](https://github.com/Markin-AI/kub-5/blob/main/deploy-bm.yaml)
+[Deployment](https://github.com/Markin-AI/kub-6/blob/main/deploy-bm.yaml)
 
-![1](https://github.com/Markin-AI/kub-5/blob/main/img/1.png)
+![1](https://github.com/Markin-AI/kub-6/blob/main/img/1.png)
 
 ------
 
@@ -32,6 +32,10 @@
 2. Обеспечить возможность чтения файла `/var/log/syslog` кластера MicroK8S.
 3. Продемонстрировать возможность чтения файла изнутри пода.
 4. Предоставить манифесты Deployment, а также скриншоты или вывод команды из п. 2.
+
+[DaemonSet](https://github.com/Markin-AI/kub-6/blob/main/daemon.yaml)
+
+![2](https://github.com/Markin-AI/kub-6/blob/main/img/2.png)
 
 ------
 
