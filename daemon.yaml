@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: daemon
+spec:
+  selector:
+    matchLabels:
+      app: multi
+  template:
+    metadata:
+      labels:
+        app: multi
+    spec:
+      containers:
+      - name: multitool
+        image: wbitt/network-multitool
+        volumeMounts:
+        - name: testvolume
+          mountPath: /opt/testvolume1
+      volumes:
+        - name: testvolume
+          hostPath: 
+            path: /var/log
